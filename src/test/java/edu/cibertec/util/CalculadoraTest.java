@@ -11,7 +11,7 @@ public class CalculadoraTest {
         int resultado = cal.sumar(2,3);
         assertEquals(5,resultado);
         assertNotEquals(6,resultado);
-        assertTrue(resultado==6);
+        assertTrue(resultado==5);
     }
 
     @Test
@@ -33,7 +33,7 @@ public class CalculadoraTest {
     void Concantena_valores(){
         Calculadora cal = new Calculadora();
         int resl = cal.valorMayor(12, 14);
-        assertEquals(12, resl);
+        assertEquals(14, resl);
     }
 
 }
