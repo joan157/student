@@ -62,7 +62,7 @@ public class GlobalExceptionHandler {
     // Excepciones generales
     @ExceptionHandler(Exception.class)
     public ResponseEntity<String> handleGeneral(Exception ex) {
-        return new ResponseEntity<>("Error interno del servidor", HttpStatus.INTERNAL_SERVER_ERROR);
+        return new ResponseEntity<>("Error interno del servidor!!!!!!!", HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
 }
